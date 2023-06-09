@@ -1,3 +1,6 @@
+require_relative "../karel/ur_robot"
+require_relative "../mixins/turner"
+
 class BellPart < UrRobot
     include Turner
 end
